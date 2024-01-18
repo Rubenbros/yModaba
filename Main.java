@@ -7,11 +7,16 @@ public class Main {
         System.out.print("Ingrese un número: ");
         int n = scanner.nextInt();
 
-        String resultado = "y modab";
+        if(n < 0) {
+            System.out.println("El número debe ser positivo");
+        }
+        else {
+            String resultado = "y modab";
 
-        for (int i = 1; i <= n; i++) {
-            resultado += "a";
-            System.out.println(resultado);
+            for (int i = 1; i <= n; i++) {
+                resultado += "a";
+                System.out.println(resultado);
+            }
         }
     }
 }

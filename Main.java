@@ -7,7 +7,7 @@ public class Main {
         System.out.print("Ingrese un número: ");
         int n = scanner.nextInt();
 
-        String resultado = "y modaba";
+        String resultado = "y modab";
 
         for (int i = 1; i <= n; i++) {
             resultado += "a";

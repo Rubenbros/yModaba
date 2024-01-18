@@ -10,6 +10,9 @@ public class Main {
         if(n < 0) {
             System.out.println("El número debe ser positivo");
         }
+        else if(n == 0) {
+            System.out.println("khe");
+        }
         else {
             String resultado = "y modab";
 
